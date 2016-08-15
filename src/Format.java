@@ -75,6 +75,10 @@ public class Format {
                             definition = definition.substring(0, definition.length() - 1);
                         }
 
+                        if (definition.substring(definition.length() - 1).equals(";")) {
+                            definition = definition.substring(0, definition.length() - 1);
+                        }
+
                         outputStringBuffer.append(definition);
                     }
 
@@ -83,7 +87,9 @@ public class Format {
 
                 }
 
+
             }
+
 
             fileReader.close();
 
@@ -120,7 +126,12 @@ public class Format {
 
             }
 
-            BufferedWriter writer = new BufferedWriter(new FileWriter(new File("french_full_v01_formatted.csv")));
+            //BufferedWriter writer = new BufferedWriter(new FileWriter(new File("french_full_v01_formatted.csv")));
+
+            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
+                    new FileOutputStream("french_full_v01_formatted.txt"), "UTF-8"));
+
+
 
             // Write output
             for (String item : csvRows) {
@@ -128,6 +139,7 @@ public class Format {
                 writer.write(item);
                 writer.newLine();
             }
+            writer.close();
 
             System.out.println();
             System.out.println("ArrayList Size: " + csvRows.size());
