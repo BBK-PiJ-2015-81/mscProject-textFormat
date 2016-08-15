@@ -2,18 +2,19 @@
  * Created by andre on 10/08/2016.
  */
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 
 public class Format {
 
-    public static void main(String [] args){
+    public static void main(String[] args) {
 
-        String myFile = "french_test_v01_UTF-8.txt";
+        //String myFile = "french_test_v01_UTF-8.txt";
+        String myFile = "french_full_v01_UTF-8.txt";
+
+
         String line = null;
-        List<String> unsortedRows = new ArrayList<String>();
+        Set<String> wordSet = new HashSet<String>();
 
 
         try {
@@ -45,11 +46,9 @@ public class Format {
 
                     if (rank.length() == 1) {
                         rank = "000" + rank;
-                    }
-                    else if (rank.length() == 2) {
+                    } else if (rank.length() == 2) {
                         rank = "00" + rank;
-                    }
-                    else if (rank.length() == 3) {
+                    } else if (rank.length() == 3) {
                         rank = "0" + rank;
                     }
 
@@ -79,7 +78,7 @@ public class Format {
                         outputStringBuffer.append(definition);
                     }
 
-                    unsortedRows.add(outputStringBuffer.toString());
+                    wordSet.add(outputStringBuffer.toString());
                     outputStringBuffer.delete(0, outputStringBuffer.length());
 
                 }
@@ -88,19 +87,57 @@ public class Format {
 
             fileReader.close();
 
+
+            List<String> unsortedRows = new ArrayList<String>(wordSet);
+
+
             // Order the words by rank
             Collections.sort(unsortedRows);
 
-            String [] unsortedRowsArr = new String[unsortedRows.size()];
-            unsortedRowsArr = unsortedRows.toArray(unsortedRowsArr);
+            ListIterator<String> itr = unsortedRows.listIterator();
 
-            //BufferedWriter writer = new BufferedWriter(new FileWriter(new File("output3.txt")));
+            boolean firstIteration = true;
+            String previousRank = "";
 
-            for(String s : unsortedRowsArr)
-                System.out.println(s);
+            while (itr.hasNext()) {
+
+                if (!firstIteration) {
+                    previousRank = itr.previous();
+                    itr.next();
+                } else {
+                    previousRank = "No previous rank";
+                }
+
+                boolean extraDef = false;
+                extraDef = itr.next().startsWith(previousRank);
+
+                if (extraDef) {
+                    itr.remove();
+                }
+
+                firstIteration = false;
+
+                System.out.println(previousRank);
+
+            }
+
+
+            System.out.println("ArrayList Size: " + unsortedRows.size());
+
+            BufferedWriter writer = new BufferedWriter(new FileWriter(new File("french_full_v01_formatted.txt")));
+
+            // Write output
+            for (String item : unsortedRows) {
+                System.out.println(item);
+                writer.write(item);
+                writer.newLine();
+            }
+
 
         } catch (IOException e) {
             e.printStackTrace();
+        } catch (NoSuchElementException e1) {
+            e1.printStackTrace();
         }
     }
 }
