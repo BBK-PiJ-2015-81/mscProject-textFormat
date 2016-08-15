@@ -87,14 +87,12 @@ public class Format {
 
             fileReader.close();
 
-
-            List<String> unsortedRows = new ArrayList<String>(wordSet);
-
+            List<String> csvRows = new ArrayList<String>(wordSet);
 
             // Order the words by rank
-            Collections.sort(unsortedRows);
+            Collections.sort(csvRows);
 
-            ListIterator<String> itr = unsortedRows.listIterator();
+            ListIterator<String> itr = csvRows.listIterator();
 
             boolean firstIteration = true;
             String previousRank = "";
@@ -102,8 +100,9 @@ public class Format {
             while (itr.hasNext()) {
 
                 if (!firstIteration) {
-                    previousRank = itr.previous();
+                    previousRank = itr.previous().substring(0,5);
                     itr.next();
+                    //itr.next();
                 } else {
                     previousRank = "No previous rank";
                 }
@@ -117,22 +116,21 @@ public class Format {
 
                 firstIteration = false;
 
-                System.out.println(previousRank);
+                //System.out.println(previousRank);
 
             }
 
-
-            System.out.println("ArrayList Size: " + unsortedRows.size());
-
-            BufferedWriter writer = new BufferedWriter(new FileWriter(new File("french_full_v01_formatted.txt")));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(new File("french_full_v01_formatted.csv")));
 
             // Write output
-            for (String item : unsortedRows) {
+            for (String item : csvRows) {
                 System.out.println(item);
                 writer.write(item);
                 writer.newLine();
             }
 
+            System.out.println();
+            System.out.println("ArrayList Size: " + csvRows.size());
 
         } catch (IOException e) {
             e.printStackTrace();

@@ -1,15 +1,11 @@
 0001,le,him
-0001,le,the
 0002,de,of
-0002,de,some
 0003,un,a
 0004,à,to
 0005,être,being
-0005,être,to be
 0006,et,and
 0007,en,in
 0008,avoir,possession
-0008,avoir,to have
 0009,que,that
 0010,pour,for
 0011,dans,in
@@ -20,17 +16,14 @@
 0016,sur,on
 0017,se,oneself
 0018,pas,footstep
-0018,pas,not
 0019,plus,more
 0020,pouvoir,can
-0020,pouvoir,power
 0021,par,by
 0022,je,I
 0023,avec,with
 0024,tout,all
 0025,faire,to do
 0026,son,his
-0026,son,sound;
 0027,mettre,to put
 0028,autre,other
 0029,on,one
@@ -42,10 +35,8 @@
 0035,leur,them
 0036,y,there
 0037,dire,saying
-0037,dire,to say
 0038,elle,she
 0039,devoir,duty
-0039,devoir,to have
 0040,avant,before
 0041,deux,two
 0042,même,same
@@ -64,7 +55,6 @@
 0055,entre,between
 0056,premier,first
 0057,vouloir,desire
-0057,vouloir,to want
 0058,déjà,already
 0059,grand,great
 0060,mon,my
@@ -75,7 +65,6 @@
 0065,temps,time
 0066,très,very
 0067,savoir,knowledge
-0067,savoir,to know
 0068,falloir,to take
 0069,voir,to see
 0070,quelque,some
@@ -98,7 +87,6 @@
 0087,dernier,last
 0088,venir,to come
 0089,pendant,during
-0089,pendant,pendant
 0090,passer,to pass
 0091,peu,little
 0092,lequel,who
@@ -116,19 +104,16 @@
 0104,tenir,to hold
 0105,porter,to wear
 0106,parler,language
-0106,parler,to speak
 0107,fort,strong
 0108,montrer,to show
 0109,là,there
 0110,certain,certain
 0111,fin,end;
-0111,fin,fine
 0112,tu,you
 0113,continuer,to continue
 0114,pays,country
 0115,trois,three
 0116,penser,thinking
-0116,penser,to think
 0117,lieu,place
 0118,partie,part
 0119,quand,when
@@ -189,19 +174,16 @@
 0174,arriver,to arrive
 0175,possible,possible
 0176,car,because
-0176,car,bus
 0177,servir,to serve
 0178,mois,month
 0179,jamais,never
 0180,sembler,to seem
 0181,tant,so
 0182,vers,toward
-0182,vers,verse
 0183,besoin,need
 0184,revenir,to come
 0185,dès,from
 0186,moyen,means
-0186,moyen,medium
 0187,groupe,group
 0188,problème,problem
 0189,rapport,relationship
@@ -214,11 +196,9 @@
 0196,laisser,to leave
 0197,ordre,order
 0198,devant,front
-0198,devant,in
 0199,recevoir,to receive
 0200,répondre,to answer
 0201,vivre,living
-0201,vivre,to live
 0202,long,long
 0203,service,service
 0204,ministre,minister
@@ -249,7 +229,6 @@
 0229,ni,nor
 0230,puis,then
 0231,toucher,to touch
-0231,toucher,touch
 0232,train,train
 0233,aujourd'hui,today
 0234,comment,how
@@ -296,7 +275,6 @@
 0276,mort,dead
 0277,mal,bad
 0278,lire,lira
-0278,lire,to read
 0279,réussir,to succeed
 0280,marché,market
 0281,condition,condition
@@ -319,7 +297,6 @@
 0298,entreprise,enterprise
 0299,coup,coup
 0300,or,gold
-0300,or,now
 0301,social,social
 0302,assurer,to assure
 0303,essayer,to try
@@ -350,7 +327,6 @@
 0328,niveau,level
 0329,rencontrer,to meet
 0330,ton,tone
-0330,ton,your
 0331,æuvre,work
 0332,créer,to create
 0333,état,state
@@ -414,7 +390,6 @@
 0391,tirer,to pull
 0392,ancien,ancient
 0393,beau,beauty
-0393,beau,handsome
 0394,plein,full
 0395,juger,to judge
 0396,éviter,to avoid
@@ -496,7 +471,6 @@
 0474,il,eye
 0475,eau,water
 0476,sauf,except
-0476,sauf,safe
 0477,école,school
 0478,sécurité,security
 0479,milieu,middle
@@ -535,13 +509,11 @@
 0512,route,road
 0513,tôt,early
 0514,lancer,release
-0514,lancer,to throw
 0515,limite,limit
 0516,fonction,function
 0517,emploi,employment
 0518,objectif,objective
 0519,paraître,appear
-0519,paraître,to appear
 0520,journal,newspaper
 0521,annoncer,to announce
 0522,lui-même,himself
@@ -578,7 +550,6 @@
 0553,fond,bottom
 0554,publique,public
 0555,faux,false
-0555,faux,scythe
 0556,genre,type
 0557,retenir,to retain
 0558,communauté,community
@@ -639,7 +610,6 @@
 0614,auprès,nearby
 0615,simplement,simply
 0616,souvenir,memory
-0616,souvenir,to remember
 0617,conséquence,consequence
 0618,large,wide
 0619,contraire,opposite
@@ -715,7 +685,6 @@
 0689,processus,process
 0690,militaire,military
 0691,frais,cool
-0691,frais,fee
 0692,industrie,industry
 0693,apparaître,to appear
 0694,responsabilité,responsibility
@@ -812,7 +781,6 @@
 0785,échange,exchange
 0786,feu,fire
 0787,neuf,new
-0787,neuf,nine
 0788,observer,to observe
 0789,capacité,capacity
 0790,désigner,to designate
@@ -831,7 +799,6 @@
 0803,cher,expensive
 0804,plaire,to please
 0805,derrière,behind
-0805,derrière,last
 0806,connaissance,knowledge
 0807,immédiatement,immediately
 0808,entrée,entrance
@@ -992,13 +959,11 @@
 0963,fonder,to found
 0964,structure,structure
 0965,complet,full
-0965,complet,suit
 0966,exercer,to exercise
 0967,amour,love
 0968,manifester,to show
 0969,menacer,to threaten
 0970,conseiller,adviser
-0970,conseiller,to advise
 0971,réunion,meeting
 0972,opposition,opposition
 0973,maladie,illness
@@ -1052,7 +1017,6 @@
 1022,avril,April
 1023,autrement,differently
 1024,ferme,farm
-1024,ferme,firm
 1025,désormais,from
 1026,lourd,heavy
 1027,susciter,to arouse
@@ -1167,7 +1131,6 @@
 1136,février,February
 1137,mode,mode
 1138,tendre,tender
-1138,tendre,to tighten;
 1139,musique,music
 1140,gestion,management
 1141,honneur,honor
@@ -1222,7 +1185,6 @@
 1191,vivant,alive
 1192,université,university
 1193,rire,laughing
-1193,rire,to laugh
 1194,facilement,easily
 1195,crainte,fear
 1196,commettre,to commit
@@ -1302,7 +1264,6 @@
 1270,extrême,extreme
 1271,néanmoins,nevertheless
 1272,bénéficier,beneficiary
-1272,bénéficier,to benefit
 1273,vingt,twenty
 1274,revoir,to see
 1275,perspective,perspective
@@ -1362,7 +1323,6 @@
 1329,rapprocher,to bring
 1330,résistance,resistance
 1331,fier,proud
-1331,fier,to rely
 1332,justement,exactly
 1333,habitant,inhabitant
 1334,formule,formula
@@ -1370,7 +1330,6 @@
 1336,tribunal,court
 1337,journaliste,journalist
 1338,manger,food
-1338,manger,to eat
 1339,soulever,to lift
 1340,évidemment,obviously
 1341,travailleur,worker
@@ -1433,7 +1392,6 @@
 1398,ressembler,to look
 1399,station,station
 1400,supporter,supporter
-1400,supporter,to support
 1401,privé,private
 1402,catégorie,category
 1403,mine,mine;
@@ -1510,7 +1468,6 @@
 1474,statut,status
 1475,essai,attempt
 1476,sourire,smile
-1476,sourire,to smile
 1477,italien,Italian
 1478,suggérer,to suggest
 1479,interrompre,to interrupt
@@ -1663,7 +1620,6 @@
 1627,étonnant,surprising
 1628,dizaine,approximately
 1629,dessus,above
-1629,dessus,top
 1630,achever,to complete
 1631,fonctionnaire,state
 1632,instruction,instruction
@@ -1913,7 +1869,6 @@
 1877,délicat,delicate
 1878,attentat,attack
 1879,boire,drink
-1879,boire,to drink
 1880,richesse,wealth
 1881,caisse,till
 1882,hasard,chance
@@ -2014,7 +1969,6 @@
 1977,congrès,congress
 1978,semblable,similar
 1979,bonjour,hello
-1979,préoccuper,to worry
 1980,dépôt,deposit
 1981,considération,consideration
 1982,multiplier,to multiply
@@ -2064,7 +2018,6 @@
 2026,grec,Greek
 2027,secondaire,secondary
 2028,reporter,reporter
-2028,reporter,to report;
 2029,partisan,partisan
 2030,cinquième,fifth
 2031,distinction,distinction
@@ -2197,7 +2150,6 @@
 2158,laboratoire,laboratory
 2159,étrange,strange
 2160,coucher,sleep
-2160,coucher,to lie
 2161,département,department
 2162,génie,genius
 2163,profession,profession
@@ -2243,7 +2195,6 @@
 2203,blessé,injured
 2204,municipal,municipal
 2205,salut,hi
-2205,salut,salute
 2206,songer,to dream
 2207,enfance,childhood
 2208,là-dessus,on
@@ -2265,7 +2216,6 @@
 2224,avertir,to warn
 2225,rédaction,writing
 2226,enceinte,enclosure
-2226,enceinte,pregnant
 2227,substance,substance
 2228,soigner,to treat
 2229,récit,account
@@ -2405,7 +2355,6 @@
 2363,officiellement,officially
 2364,chasser,to hunt
 2365,dîner,dinner
-2365,dîner,to dine
 2366,personnellement,personally
 2367,fréquenter,to frequent
 2368,projeter,to plan
@@ -2622,7 +2571,6 @@
 2579,coupure,cut
 2580,glace,ice
 2581,gare,look
-2581,gare,station
 2582,drapeau,flag
 2583,réparer,to repair
 2584,sensibilité,sensitivity
@@ -2766,7 +2714,6 @@
 2722,formidable,tremendous
 2723,tas,pile
 2724,déjeuner,lunch
-2724,déjeuner,to have
 2725,disputer,to dispute
 2726,élite,elite
 2727,malheur,misfortune
@@ -3041,7 +2988,6 @@
 2997,tracer,to draw
 2998,sagesse,wisdom
 2999,baiser,kiss
-2999,baiser,to kiss
 3000,user,to wear
 3001,enfer,hell
 3002,pilote,pilot
@@ -3054,7 +3000,6 @@
 3009,luxe,luxury
 3010,nomination,appointment
 3011,poster,poster
-3011,poster,to post
 3012,bar,bar
 3013,tantôt,this
 3014,publiquement,publicly
@@ -3514,7 +3459,6 @@
 3468,esclave,slave
 3469,marocain,Moroccan
 3470,menu,menu
-3470,menu,slender
 3471,imaginaire,imaginary
 3472,administrer,to manage
 3473,atteinte,reach;
@@ -3615,7 +3559,6 @@
 3568,capitalisme,capitalism
 3569,suspension,hanging
 3570,mince,rats!
-3570,mince,thin
 3571,assimiler,to assimilate
 3572,plume,feather
 3573,publicitaire,advertising
@@ -3625,7 +3568,6 @@
 3577,trajet,journey
 3578,sinistre,disaster
 3579,pis,worse
-3579,pis,worst
 3580,reconstruire,to rebuild
 3581,tueur,killer
 3582,tournoi,tournament
@@ -3748,7 +3690,6 @@
 3700,couronne,crown
 3701,descente,descent
 3702,plancher,floor
-3702,plancher,to floor
 3703,trentaine,about
 3704,détresse,distress
 3705,escalier,stairs
@@ -4107,7 +4048,6 @@
 4058,léguer,to bequeath
 4059,prélever,to impose
 4060,noyer,to drown
-4060,noyer,walnut
 4061,abbé,abbot
 4062,détecter,to detect
 4063,capter,to pick
@@ -4270,7 +4210,6 @@
 4221,banal,banal
 4222,poulet,chicken
 4223,pêcher,peach
-4223,pêcher,to fish
 4224,brigade,team
 4225,trembler,to shiver
 4226,reçu,receipt
@@ -4398,7 +4337,6 @@
 4348,fidélité,loyalty
 4349,basculer,to topple
 4350,gestionnaire,administrative
-4350,gestionnaire,administrator
 4351,redoutable,fearsome
 4352,immigrant,immigrant
 4353,polémique,controversial
@@ -4490,7 +4428,6 @@
 4439,sécheresse,dryness
 4440,score,score
 4441,goûter,snack
-4441,goûter,to taste
 4442,renier,to disown
 4443,juridiction,jurisdiction
 4444,prostitution,prostitution
@@ -4806,7 +4743,6 @@
 4755,mobilité,mobility
 4756,exclu,outcast
 4757,boucher,butcher
-4757,boucher,to fill
 4758,bénéfique,beneficial
 4759,commencement,beginning
 4760,licenciement,dismissal
@@ -4902,4 +4838,58 @@
 4850,verdict,verdict
 4851,dix-neuf,nineteen
 4852,guetter,to watch
-4853,frustrer,to frus
+4853,frustrer,to frustrate
+4854,anglo-saxon,Anglo-Saxon
+4855,détente,release
+4856,questionner,to question
+4857,injecter,to inject
+4858,préjudice,loss
+4859,couramment,fluently
+4860,exploration,exploration
+4861,caresser,to fondle
+4862,hymne,hymn
+4863,sécuritaire,safe
+4864,famine,famine
+4865,écrier,to exclaim
+4866,précipitation,haste
+4867,caution,deposit
+4868,affectation,appointment
+4869,salaud,bastard
+4870,cave,cellar
+4871,bond,leap
+4872,enclin,enclined
+4873,nettoyage,cleaning
+4874,foudre,lightning
+4875,justesse,accuracy
+4876,rente,annuity
+4877,hépatite,hepatitis
+4878,blindé,armored
+4879,clan,clan
+4880,accélération,acceleration
+4881,garage,garage
+4882,résolument,resolutely
+4883,négociateur,negotiator
+4884,romantique,romantic
+4885,obscurité,darkness
+4886,vulgaire,vulgar
+4887,soixante-dix,seventy
+4888,féroce,ferocious
+4889,perpétuel,perpetual
+4890,militer,to militate
+4891,jungle,jungle
+4892,case,box
+4893,craquer,to creak
+4894,clarifier,to clarify
+4895,crête,crest
+4896,traite,trade
+4897,démarrage,start
+4898,oubli,forgetting
+4899,procès-verbal,minutes
+4900,formalité,formality
+4901,insensible,insensitive
+4902,distant,far-off
+4903,émetteur,transmitter
+4904,montage,assembly
+4905,énergique,energetic
+4906,claquer,to flap
+4907,simplicit
